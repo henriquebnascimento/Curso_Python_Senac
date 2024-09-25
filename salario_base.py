@@ -8,3 +8,4 @@ salarioBruto = salarioBase + gratificacao
 
 # Saída
 print(f'O valor do salário bruto é R$: {salarioBruto:.2f}')
+
