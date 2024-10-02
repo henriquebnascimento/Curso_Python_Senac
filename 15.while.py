@@ -103,15 +103,55 @@
     
 # print(numero)
 
-nomes = []
-cont = 0
-while True:
-    nome = input('Digite um nome: ').lower()
-    nomes.append(nome)
-    cont +=1
-    if nome == 'sair':
-        break
-print(f'Vocé digitou {cont} nomes.')
-print(nomes)
+# nomes = []
+# cont = 0
+# while True:
+#     nome = input('Digite um nome: ').lower()
+#     nomes.append(nome)
+#     cont +=1
+#     if nome == 'sair':
+#         break
+# print(f'Vocé digitou {cont} nomes.')
+# print(nomes)
     
+# lista = []
+# while True:
+#     opcao = int(input('O que deseja fazer?\n1 - Adicionar item\n2 - Remover item\n3 - Exibir lista\n4 - Sair\n********************************\n'))
+#     if opcao == 1:
+#             print('Qual item deseja adicionar? ')
+#             resposta = int(input())
+#             lista.append(resposta)
+#             print('Iten adicionado com sucesso!')
+#             print(f'Lista atualizada: {lista}\n********************************\n')
+            
+#     elif opcao == 2:
+#             print('Qual item deseja remover? ')
+#             resposta = int(input())
+#             lista.remove(resposta)
+#             print('Iten removido com sucesso!')
+#             print(f'Lista atualizada: {lista}\n********************************\n')       
+
+#     elif opcao == 3:
+#         if lista == []:
+#             print('Sua lista está vazia. \nFavor insira elementos.')
+#         else:
+#             lista_ordenada = sorted(lista)
+#             print(f'Lista atualizada: {lista_ordenada}\n********************************\n')
+            
+#     elif opcao == 4:
+#         break    
+#     else:
+#         print('Opção inválida!\nDigite uma opção entre 1 a 4')   
+ 
+ 
+ # USANDO O CONTINUE       
+# for i in range(1,11):
+#     if i == 5:
+#         continue
+#     print(i)
     
+
+# USANDO O PASS
+def primeira_funcao():
+    pass #ignora a função
+primeira_funcao()
