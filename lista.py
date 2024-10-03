@@ -9,7 +9,26 @@ print(lista2)
 
 lista3 = ['C', 4.65, True, "True", 'Vamos Aprender', ['outra', 'lista', 'interna'], lista2]
 print(lista3[::-1])
+print(lista3[2:6:2])
+print(lista3[0:])
+
+lista3[1] = 5000
+print(lista3)
 
 lista4 = ['primeiro', 'segundo', 'terceiro']
-print(lista4)
+print(len(lista4))
+
+
+print(lista3[0:len(lista3)])
+
 lista4[2] = 'praia' 
+
+nome1 = 'Henrique Barbosa do Nascimento'
+print(len(nome1[0]))
+
+nome2 = input('aqui um nome')
+
+indice =  nome1.index('Nascimento')
+print(indice)
+
+
