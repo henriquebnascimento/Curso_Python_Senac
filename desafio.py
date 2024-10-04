@@ -1,11 +1,15 @@
-hotel = input('Digite o nome do hotel com 6 caracteres: ')
-cidade = input('Digite a cidade com 8 caracteres: ')
-avaliacao = input('Digite um numero entre 1 a 5: ')
-
-
-print(20*'*')
-print(f'********{hotel}********')
-print(f'****{avaliacao} estrela(s)****')
-print(f'******Em {cidade}*****')
-print(20*'*')
-
+valores = []
+while True:
+    valores.append(int(input('Digite um valor: ')))
+    resp =  str(input('Quer continuar? [S/N]'))
+    if resp in 'Nn':
+        break
+    
+print('-=' * 30)
+print(f'Você digitou {len(valores)} elementos.')
+valores.sort(reverse = True)
+print(valores)
+if 5 in valores:
+    print('O número 5 consta na lista.')
+else:    
+    print('O número 5 não foi encontrado na lista')

@@ -12,3 +12,4 @@ nome = 'Maria' #string
 idade = 30 # inteiro
 altura = 1.65 #float
 print(nome, idade, altura)
+print(f'meu nome é {nome}, tenho {idade} anos e {altura}m de altura.')
