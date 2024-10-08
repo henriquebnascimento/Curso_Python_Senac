@@ -20,7 +20,7 @@ def obter_detalhes_pedido():
         print(f'Parcial: R$ {subtotal:.2f}')
     
         while True:
-            print('Deseja adicionar outro pedido? [s/n]\n________________________________')
+            print('Deseja adicionar outro pedido? [s/n]\n********************************')
             escolha = str(input()).lower()
             if escolha == 's':                
                 break
