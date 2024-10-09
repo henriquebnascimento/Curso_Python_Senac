@@ -1,16 +1,15 @@
-
-class Pessoa():
-    def __init__(self, nome, idade, telefone):
+class Pedido():
+    def __init__(self,nome, marca, modelo, ano):
         self.nome = nome
-        self.idade = idade
-        self.telefone = telefone
+        self.marca = marca
+        self.modelo = modelo
+        self.ano = ano
+    
+    def compra(self):
+        print(f"{self.nome}, parabéns pela sua compra!!\nSeu {self.marca}{self.modelo}, ano {self.ano} está sendo processado.")
         
-    def apresentar(self):
-        print(f"Meu nome é {self.nome}, \ntenho {self.idade} anos. \nMeu telefone é: {self.telefone}")
-        
-pessoa1 = Pessoa('Maria', 39, '81 98556-1234')
-pessoa2 = Pessoa('João', 41, 'Número não cadastrado.')
+pedido1 = Pedido('Henrique','Peugeot', '206', 2008)
+pedido2 = Pedido('Maria','Fiat', 'Pálio', 2015)
 
-pessoa1.apresentar()
-print(30*'_')
-pessoa2.apresentar()
+pedido1.compra()
+pedido2.compra()        
